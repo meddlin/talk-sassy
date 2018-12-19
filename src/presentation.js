@@ -16,7 +16,11 @@ import {
 
 import Titles from './slides/titles';
 import Purpose from './slides/purpose';
-
+import History from './slides/history';
+import Nesting from './slides/nesting';
+import Mixins from './slides/mixins';
+import MixinArgs from './slides/mixinArgs';
+import MathFunctions from './slides/math';
 import Functions from './slides/functions';
 
 // Import theme
@@ -60,7 +64,27 @@ export default class Presentation extends React.Component {
           </Slide>
 
           <Slide transition={['fade']} bgColor="secondary">
+            <History />
+          </Slide>
+
+          <Slide transition={['fade']} bgColor="secondary">
+            <Nesting />
+          </Slide>
+
+          <Slide transition={['fade']} bgColor="secondary">
+            <Mixins />
+          </Slide>
+
+          <Slide transition={['fade']} bgColor="secondary">
+            <MixinArgs />
+          </Slide>
+
+          <Slide transition={['fade']} bgColor="secondary">
             <Functions />
+          </Slide>
+
+          <Slide transition={['fade']} bgColor="secondary">
+            <MathFunctions />
           </Slide>
 
       </Deck>

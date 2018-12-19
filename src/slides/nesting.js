@@ -2,12 +2,15 @@ import React from 'react';
 import {
 	Heading,
 	Link,
-	Text
+	Text,
+	CodePane
 } from 'spectacle';
 
 const Nesting = () => {
 	return (
 		<div>
+			<Text textSize={'36px'} textColor="tertiary">Nesting</Text>
+
 			<CodePane source={`.container {
     width: 100%;
     h1 {

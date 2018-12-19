@@ -9,7 +9,7 @@ import {
 const Mixins = () => {
 	return (
 		<div>
-			<Text textSize={'24px'} textColor="tertiary">Mixins</Text>
+			<Text textSize={'36px'} textColor="tertiary">Mixins</Text>
 
 			<CodePane source={`@mixin flex {
     // write the css here
@@ -21,6 +21,8 @@ const Mixins = () => {
 .row {
     @include flex;
 }`} lang="css" theme="light" textSize={'17px'} />
+
+			<Text textSize={'30px'} textColor="primary">For when you want to use the same "mix" of stuff, but all over the place</Text>
 
 			{/*https://scotch.io/tutorials/how-to-use-sass-mixins*/}
 		</div>
