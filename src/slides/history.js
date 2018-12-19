@@ -13,12 +13,12 @@ const History = () => {
 			<Text textSize={'36px'} textColor="tertiary">History: but why???</Text>
 
 			<List>
-				<ListItem textColor="primary">1st -- CSS has problems...</ListItem>
-				<ListItem textColor="primary">then -- Sass w/ Haml</ListItem>
-				<ListItem textColor="primary">then -- Sass whitespace driven...it's weird</ListItem>
-				<ListItem textColor="primary">ughh -- Sass? Less? BEM? ???</ListItem>
+				<ListItem textColor="primary">CSS has problems...</ListItem>
+				<ListItem textColor="primary">Sass w/ Haml</ListItem>
+				<ListItem textColor="primary">Sass whitespace driven...it's weird</ListItem>
+				<ListItem textColor="primary">Sass? Less? BEM? ???</ListItem>
 
-				<ListItem textColor="primary">Sass --> v3 -->  SCSS</ListItem>
+				<ListItem textColor="primary">Sass v3 -->  SCSS</ListItem>
 			</List>
 
 			<Text textSize={'30px'} textColor="tertiary">

@@ -24,7 +24,15 @@ const Mixins = () => {
 
 			<Text textSize={'30px'} textColor="primary">For when you want to use the same "mix" of stuff, but all over the place</Text>
 
-			{/*https://scotch.io/tutorials/how-to-use-sass-mixins*/}
+			<br />
+
+			<Link href={'https://scotch.io/tutorials/how-to-use-sass-mixins'}>
+    			<Text textSize={'28px'} textColor="primary">
+    				Ref: How to use mixins
+    				<br />
+    				<Text textSize={'22px'} textColor="primary">https://scotch.io/tutorials/how-to-use-sass-mixins</Text>
+    			</Text>
+    		</Link>
 		</div>
 	);
 }

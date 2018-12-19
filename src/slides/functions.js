@@ -17,7 +17,7 @@ const Functions = () => {
  
 @function is-time($value) {
   @return is-number($value) and index('ms' 's', unit($value)) != null;
-}`} lang="css" theme="light" textSize={'17px'} />
+}`} lang="scss" theme="light" textSize={'17px'} />
 
 			<Text textSize={'30px'} textColor="primary">For superheroes</Text>
 

@@ -9,7 +9,7 @@ import {
 const MathFunctions = () => {
 	return (
 		<div>
-			<Text textSize={'36px'} textColor="tertiary">MathFunctions + Functions</Text>
+			<Text textSize={'36px'} textColor="tertiary">Math + Functions</Text>
 
 			<CodePane source={`/* defined in SCSS */
 @function column-width($col, $total) {
@@ -21,18 +21,11 @@ const MathFunctions = () => {
  width: column-width(3, 8);
 }
 
-.col-5 {
- width: column-width(5, 8);
-}
-
 /* compiles to this in CSS */
 .col-3 {
  width: 37.5%;
 }
 
-.col-5 {
- width: 62.5%;
-}
 				`} lang="css" theme="light" textSize={'17px'} />
 
 			<br />

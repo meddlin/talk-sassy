@@ -22,6 +22,8 @@ import Mixins from './slides/mixins';
 import MixinArgs from './slides/mixinArgs';
 import MathFunctions from './slides/math';
 import Functions from './slides/functions';
+import Running from './slides/running';
+import FurtherReading from './slides/further-reading';
 
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
@@ -85,6 +87,14 @@ export default class Presentation extends React.Component {
 
           <Slide transition={['fade']} bgColor="secondary">
             <MathFunctions />
+          </Slide>
+
+          <Slide transition={['fade']} bgColor="secondary">
+            <Running />
+          </Slide>
+
+          <Slide transition={['fade']} bgColor="secondary">
+            <FurtherReading />
           </Slide>
 
       </Deck>

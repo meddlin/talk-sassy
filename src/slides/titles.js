@@ -8,8 +8,7 @@ import {
 const Titles = () => {
 	return (
 		<div>
-			<Heading size={2} textColor="primary">Sass</Heading>
-			<Heading size={2} textColor="primary">SCSS</Heading>
+			<Heading size={2} textColor="primary">Sass or, uh... SCSS</Heading>
 		</div>
 	);
 }

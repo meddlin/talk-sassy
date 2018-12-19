@@ -23,8 +23,6 @@ const MixinsArgs = () => {
 @include grid(true);`} lang="css" theme="light" textSize={'17px'} />
 
 			<Text textSize={'30px'} textColor="primary">For when you want to give magic powers to your re-used "style chunks"</Text>
-
-			{/*https://scotch.io/tutorials/how-to-use-sass-mixins*/}
 		</div>
 	);
 }
