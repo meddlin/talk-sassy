@@ -20,7 +20,7 @@ const Mixins = () => {
 /* Then...use it */
 .row {
     @include flex;
-}`} lang="css" theme="light" textSize={'17px'} />
+}`} lang="scss" theme="light" textSize={'17px'} />
 
 			<Text textSize={'30px'} textColor="primary">For when you want to use the same "mix" of stuff, but all over the place</Text>
 

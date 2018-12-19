@@ -20,7 +20,7 @@ const MixinsArgs = () => {
 }
 
 /* Then...use it */
-@include grid(true);`} lang="css" theme="light" textSize={'17px'} />
+@include grid(true);`} lang="scss" theme="light" textSize={'17px'} />
 
 			<Text textSize={'30px'} textColor="primary">For when you want to give magic powers to your re-used "style chunks"</Text>
 		</div>

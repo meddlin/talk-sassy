@@ -26,7 +26,7 @@ const MathFunctions = () => {
  width: 37.5%;
 }
 
-				`} lang="css" theme="light" textSize={'17px'} />
+				`} lang="scss" theme="light" textSize={'17px'} />
 
 			<br />
 

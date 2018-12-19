@@ -17,6 +17,7 @@ import {
 import Titles from './slides/titles';
 import Purpose from './slides/purpose';
 import History from './slides/history';
+import Animated from './slides/animated';
 import Nesting from './slides/nesting';
 import Mixins from './slides/mixins';
 import MixinArgs from './slides/mixinArgs';
@@ -48,6 +49,7 @@ export default class Presentation extends React.Component {
   render() {
     return (
       <Deck
+        contentWidth={1500}
         transition={['zoom', 'slide']}
         transitionDuration={500}
         theme={theme}>
@@ -68,6 +70,10 @@ export default class Presentation extends React.Component {
           <Slide transition={['fade']} bgColor="secondary">
             <History />
           </Slide>
+
+          <Slide transition={['fade']} bgColor="secondary">
+            <Animated />
+          </Slide>          
 
           <Slide transition={['fade']} bgColor="secondary">
             <Nesting />

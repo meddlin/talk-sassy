@@ -26,7 +26,7 @@ const Nesting = () => {
 
 .container h1 {
     color: red;
-}`} lang="css" theme="light" textSize={'17px'} />
+}`} lang="scss" theme="light" textSize={'17px'} />
 
 			<Text textSize={'30px'} textColor="primary">Finally scoping begins to make sense</Text>
 	
